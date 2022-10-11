@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test   thread-count="2" name="Test">
+    <classes>
+      <class name="com.kitezeroda.testclass.Baseclass"/>
+      <class name="testng.Firstprogramoftestng"/>
+      <class name="com.kitezeroda.testclass.Tc02_VerifyLogoutFunctionality"/>
+      <class name="com.kitezeroda.testclass.Annotationclass"/>
+      <class name="com.kitezeroda.testclass.Testannotionclass"/>
+      <class name="com.kitezeroda.testclass.Tc01_verifyLoginFunctionality"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
