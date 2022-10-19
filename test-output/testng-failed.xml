@@ -3,11 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.kitezeroda.testclass.Tc02_VerifyLogoutFunctionality">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.kitezeroda.testclass.Tc02_VerifyLogoutFunctionality -->
       <class name="com.kitezeroda.testclass.Testannotionclass">
         <methods>
           <include name="setup"/>
@@ -21,6 +16,11 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.kitezeroda.testclass.Tc01_verifyLoginFunctionality -->
+      <class name="com.kitezeroda.testclass.Tc02_VerifyLogoutFunctionality">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.kitezeroda.testclass.Tc02_VerifyLogoutFunctionality -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -35,7 +35,7 @@ public class Testannotionclass extends Baseclass
 		 z.logoutbutton1();
 		 Log.info("logout button clicked");
 	
-	    System.out.println("apply the validation");
+		 Log.info ("apply the validation");
 		
 		   String expectedurl = "https://kite.zerodha.com/dashboard";    //dev/BA	
 		   String actualurl = driver.getCurrentUrl();
